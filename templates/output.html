@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>FunApp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  img {
+    border-radius: 50%;
+    }
+    #imag{
+        display:inline-block;
+    }
+    
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 50px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 21.8%;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">FunApp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://stormy-wildwood-38070.herokuapp.com" target="_blank">FaceApp</a></li>
+        <li><a href="https://mighty-sea-46923.herokuapp.com" target="_blank">SmileApp</a></li>
+        <li><a href="https://limitless-ravine-36741.herokuapp.com" target="_blank">YoungApp</a></li>
+        <li><a href="https://serene-hollows-58208.herokuapp.com" target="_blank">OldApp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div id="imag"><h4 class="text-center"><strong>Male: </strong></h4>
+                    <img src="{{input}}" alt="Mountain View" width="300" height="300"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div id="imag"><h4 class="text-center"><strong>Female:</strong></h4>
+                    <img src="{{output}}" alt="Mountain View" width="300" height="300"></div>
+                </div>
+
+                <div>
+                    <button id="myPrntbtn" class="btn btn-warning center-block">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://stormy-wildwood-38070.herokuapp.com" target="_blank">
+                        Share on Facebook
+                        </a>
+                    </button>
+                </div>
+</div>
+</body>
+</html>
