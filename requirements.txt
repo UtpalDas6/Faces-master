@@ -7,7 +7,7 @@ Flask-Uploads==0.2.1
 idna==2.6
 image==1.5.20
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 Pillow==5.0.0
 pymongo==3.6.1
